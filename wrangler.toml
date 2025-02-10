@@ -1,0 +1,7 @@
+name = "lo5rworkers"
+main = "src/index.ts"
+compatibility_date = "2024-09-24"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+DB_PORT=5432
