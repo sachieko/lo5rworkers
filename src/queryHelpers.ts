@@ -185,6 +185,7 @@ export type Weapon = {
 // Armor data format:uses a join table between item qualities and armor.
 type Armor = {
 	id: number;
+	name: string;
 	physical_resistance: number;
 	supernatural_resistance: number;
 	rarity: number;
@@ -202,7 +203,7 @@ type Armor = {
     id: number,
     technique_id: number,
     ring: string,
-    category: string,W
+    category: string,
     cost: string,
     effect: string
   }, ...]
